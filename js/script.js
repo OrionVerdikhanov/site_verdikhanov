@@ -656,8 +656,8 @@ async function sendToTelegram(data) {
 // CONSOLE GREETING
 // ===================================
 
-console.log('%c🏠 Премиум сайт агента по недвижимости', 'font-size: 20px; color: #0066FF; font-weight: bold; text-shadow: 2px 2px 4px rgba(0,0,0,0.2);');
-console.log('%c👨‍💼 Фейтулла Вердиханов', 'font-size: 16px; color: #00D4AA; font-weight: bold;');
+console.log('%c🏠 Премиум сайт агента по недвижимости', 'font-size: 20px; color: #E31E24; font-weight: bold; text-shadow: 2px 2px 4px rgba(0,0,0,0.2);');
+console.log('%c👨‍💼 Фейтулла Вердиханов', 'font-size: 16px; color: #EF4444; font-weight: bold;');
 console.log('%c📞 Телефон: +7 (999) 999-99-99', 'font-size: 14px; color: #6B7280;');
 console.log('%c✨ AAA Design | Professional Team', 'font-size: 12px; color: #FFB800;');
 
@@ -670,7 +670,7 @@ if (window.performance) {
         setTimeout(() => {
             const perfData = window.performance.timing;
             const pageLoadTime = perfData.loadEventEnd - perfData.navigationStart;
-            console.log(`%c⚡ Page loaded in ${pageLoadTime}ms`, 'color: #00D4AA; font-weight: bold;');
+            console.log(`%c⚡ Page loaded in ${pageLoadTime}ms`, 'color: #EF4444; font-weight: bold;');
         }, 0);
     });
 }
